@@ -3,7 +3,6 @@
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/tamirespatrocinio/customer-churn-analysis?color=56BEB8">
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/tamirespatrocinio/customer-churn-analysis?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tamirespatrocinio/customer-churn-analysis?color=56BEB8">
   <img alt="License" src="https://img.shields.io/github/license/tamirespatrocinio/customer-churn-analysis?color=56BEB8">
 </p>
 
@@ -25,8 +24,8 @@ This project focuses on analyzing customer churn data to identify patterns and f
 
 ## :sparkles: Features  
 
-:heavy_check_mark: Customer churn analysis;
-:heavy_check_mark: Data visualization to uncover patterns;
+:heavy_check_mark: Customer churn analysis;\
+:heavy_check_mark: Data visualization to uncover patterns;\
 :heavy_check_mark: Identification of factors contributing to churn.
 
 ## :rocket: Technologies  
@@ -76,6 +75,16 @@ The data set used in the analysis contains the following columns:
 | total_gasto                   | float64      | Total gasto pelo cliente até o momento.                |
 | meses_ultima_interacao       | float64      | Meses desde a última interação com o cliente.          |
 | cancelou                      | float64      | Indica se o cliente cancelou (0.0 = Não Cancelou, 1.0 = Cancelou). |
+
+## :framed_picture: Photos
+
+![newplot](https://github.com/user-attachments/assets/a13ffadf-5ac5-4944-bea7-97e3aade2d34)
+*Chart 1: Number of calls to the call center by customers.*
+![newplot2](https://github.com/user-attachments/assets/75ade608-2e45-4ecd-a047-4c47ff97c31d)
+*Chart 2: Number of days in delay for customer payments.*
+![newplot3](https://github.com/user-attachments/assets/1f118f47-b8b7-4498-96c4-7b875dbc5c10)
+*Chart 3: Duration of contracts (Monthly, Quarterly, Annual) by customers.*
+
 
 ## :chart_with_upwards_trend: Results
 The initial analysis revealed that the proportion of cancellations is as follows:
