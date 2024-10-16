@@ -65,17 +65,17 @@ The data set used in the analysis contains the following columns:
 
 | Column Name               | Type  | Description                                               |
 |-------------------------------|--------------|---------------------------------------------------------|
-| idade                         | float64      | Idade do cliente.                                      |
-| sexo                          | object       | Sexo do cliente (Male/Female).                         |
-| tempo_como_cliente           | float64      | Tempo que o cliente está com a empresa (em meses).    |
-| frequencia_uso               | float64      | Frequência de uso do serviço pelo cliente.             |
-| ligacoes_callcenter           | float64      | Número de ligações feitas ao call center.              |
-| dias_atraso                  | float64      | Número de dias em atraso nos pagamentos.               |
-| assinatura                    | object       | Tipo de assinatura do cliente (Basic, Standard, Premium). |
-| duracao_contrato             | object       | Duração do contrato (Mensal, Trimestral, Anual).      |
-| total_gasto                   | float64      | Total gasto pelo cliente até o momento.                |
-| meses_ultima_interacao       | float64      | Meses desde a última interação com o cliente.          |
-| cancelou                      | float64      | Indica se o cliente cancelou (0.0 = Não Cancelou, 1.0 = Cancelou). |
+| age                         | float64      | Customer's age.                                      |
+| gender                          | object       | Customer's gender (Male/Female).                         |
+| customer_time           | float64      | Length of time the customer has been with the company (in months).    |
+| frequency_use               | float64      | Frequency of service use by the customer.             |
+| callcenter_calls          | float64      | Number of calls made to the call center.              |
+| delay_days                  | float64      | Number of days of late payments.               |
+| signature                     | object       | Type of customer subscription (Basic, Standard, Premium). |
+| contract_duration              | object       | Contract duration (Monthly, Quarterly, Annual).      |
+| total_expense                  | float64      | Total spent by the client to date.                |
+| last_interaction_months       | float64      | Months since last customer interaction.          |
+| canceled                      | float64      | Indicates whether the customer has canceled (0.0 = Not Canceled, 1.0 = Canceled). |
 
 ## :framed_picture: Photos
 
